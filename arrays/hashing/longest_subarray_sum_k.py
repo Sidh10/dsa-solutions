@@ -11,6 +11,7 @@ def longest_subarray(arr, k):
             dict1[current_sum] = i
         
     return length
+    
 print(longest_subarray([1, -1, 1, 1, -1], 1))   # → 5
 print(longest_subarray([1, 2, 3], 3))             # → 2
 print(longest_subarray([1, 1, 1], 2))             # → 2
